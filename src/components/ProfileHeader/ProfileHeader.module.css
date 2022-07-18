@@ -1,0 +1,44 @@
+.header {
+    height: 200px;
+    position: relative;
+    background: url("../../../public/images/Background.png");
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+.header img {
+    border-radius: 12px;
+}
+.title{
+    color: #FFFFFF;
+}
+.headerBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: -60px;
+    width: 100%;
+    background: linear-gradient(112.83deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.8) 110.84%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+    backdrop-filter: blur(21px);
+    border-radius: 15px;
+
+}
+
+.headerBottom img {
+    height: 80px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.img{
+    max-width: 100px;
+}

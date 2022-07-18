@@ -1,0 +1,18 @@
+.inputField {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #282c34 !important;
+}
+
+.inputField fieldset {
+    border: 1px solid #E2E9F0 !important;
+}
+
+.inputField legend {
+    color: #2C3153 !important;
+}
+
+
+.select {
+}

@@ -1,0 +1,110 @@
+.register {
+    margin: auto 0;
+    padding-bottom: 40px;
+}
+
+.header {
+    background: url("../../../public/images/Background.png");
+    height: 300px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.formTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: -100px auto auto;
+    background: #FFFFFF;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.form label {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.mainTitle {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgTitle {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+
+.secondaryTitle {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 100px;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputField input {
+    margin-bottom: 20px;
+    height: 50px;
+    border: 1px solid #E2E9F0;
+    border-radius: 12px;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+
+.inputField input:hover {
+    border: 1px solid #48BB78;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img img {
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    color: #4FD1C5;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1366px) {
+    .img img {
+        top: -200px;
+    }
+
+}

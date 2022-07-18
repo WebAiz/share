@@ -1,0 +1,25 @@
+.course{
+    display: flex;
+    flex-direction: column;
+    background: #E2E9F0;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: bold;
+
+}
+.videoLink{
+    margin-bottom: 10px;
+}
+.content{
+    margin: 20px 0;
+}
+.date{
+    align-self: flex-end;
+}

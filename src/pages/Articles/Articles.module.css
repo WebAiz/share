@@ -1,0 +1,20 @@
+.articles{
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    gap: 20px;
+}
+
+.posts {
+    padding: 20px;
+    max-width: 100%;
+}
+
+.comments {
+    padding: 20px;
+    position: sticky;
+    top: 40px;
+    max-height: 600px;
+}

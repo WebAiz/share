@@ -1,0 +1,35 @@
+.post {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.date {
+    text-align: end;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.delete {
+    color: #ef233c;
+    cursor: pointer;
+}
+
+.delete:hover {
+    opacity: 0.8;
+}

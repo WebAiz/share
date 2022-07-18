@@ -1,0 +1,16 @@
+.mainBtn {
+    background: #4FD1C5 !important;
+    color: #fff !important;
+    padding: 20px 20px !important;
+    border-radius: 12px !important;
+    outline: none !important;
+    border: none !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
+
+.mainBtn:hover {
+    background: #2C3153 !important;
+    color: #fff !important;
+}

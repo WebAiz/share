@@ -1,0 +1,52 @@
+.sidebar {
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+}
+.header{
+    border-bottom: 1px solid #E2E9F0;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.link, .link:visited {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #718096;
+    cursor: pointer;
+    padding: 15px
+}
+
+.link:hover{
+    color: #2C3153;
+}
+
+.linkActive {
+    background: #FFFFFF;
+    color: #2C3153;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
+}
+.icon{
+    background: #4FD1C5;
+    padding: 10px;
+    font-size: 3rem !important;
+    border-radius: 15px;
+    color: #FFFFFF;
+}

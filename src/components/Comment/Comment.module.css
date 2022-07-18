@@ -1,0 +1,8 @@
+.comment{
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
+    min-height: 100px;
+}

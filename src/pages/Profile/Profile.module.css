@@ -1,0 +1,19 @@
+.profile {
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.posts {
+    padding: 20px;
+}
+
+.comments {
+    padding: 20px;
+    position: sticky;
+    top: 40px;
+    max-height: 600px;
+}

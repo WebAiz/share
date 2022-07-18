@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    font-family: Helvetica, Montserrat, sans-serif;
+}
+
+html {
+    font-size: 14px;
+    background: #F8F9FA
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+    color: #282c34;
+}
+
+img {
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.font-gray {
+    color: #718096;
+}
+
+.gray {
+    background: #718096;
+}
+
+.font-main-green {
+    color: #4FD1C5;
+}
+
+.main-green {
+    background: #4FD1C5;
+}
+
+.font-green {
+    color: #48BB78;
+}
+
+.green {
+    background: #48BB78;
+}
+
+.font-black {
+    color: #2C3153;
+}
+
+.black {
+    background: #2C3153;
+}
+
+.light-gray {
+    color: #E2E9F0;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.hover:hover {
+    opacity: 0.8;
+}
+
+.icon {
+    color: #718096;
+}
+
+.icon:hover {
+    color: #2C3153;
+    cursor: pointer;
+}

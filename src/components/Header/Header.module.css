@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: sticky;
+    z-index: 100;
+    max-width: 1440px;
+    margin: 0 auto;
+    top: 0;
+    background: #F8F9FA;
+    box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.02);
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.avatar:hover, .icon:hover {
+    color: #282c34;
+    cursor: pointer;
+}
+
+.headerIcons {
+    display: flex;
+    align-items: center;
+    color: #718096;
+}
+
+.icon {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+

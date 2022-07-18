@@ -1,0 +1,27 @@
+.infoCard {
+    background: #4FD1C5;
+    padding: 15px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    box-shadow: 0 3.5px 5.5px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    color: #4FD1C5;
+    padding: 5px;
+    background: #FFFFFF;
+    font-size: 3rem !important;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.body {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}

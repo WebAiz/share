@@ -1,0 +1,33 @@
+.notifications {
+    padding: 20px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #2C3153;
+}
+.meetingName {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.notification {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete {
+    color: #ef233c;
+    cursor: pointer;
+}
+
+.delete:hover {
+    opacity: 0.8;
+}

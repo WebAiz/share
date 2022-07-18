@@ -1,0 +1,12 @@
+.course {
+    background: #FFFFFF;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    align-self: flex-end;
+}

@@ -1,0 +1,34 @@
+.zoom {
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #2C3153;
+}
+
+.meetingName {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.meeting {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meeting a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    color: #2C3153;
+}
